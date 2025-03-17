@@ -5,7 +5,7 @@ public class TestRunner {
 
     @Karate.Test
     Karate testAll() {
-        return Karate.run().tags("@E2E").relativeTo(getClass());
+        return Karate.run("classpath:features").tags("@E2E").relativeTo(getClass());
     }
 }
 

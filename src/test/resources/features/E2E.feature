@@ -3,6 +3,7 @@ Feature: Demo feature
 
   Background: run background
 
+  @E2ETesting
   Scenario: sample scenario
     * def args = {}
     * args.name = "password"
