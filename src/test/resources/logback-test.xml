@@ -5,13 +5,9 @@
         </encoder>
     </appender>
 
-<!--    <logger name="com.intuit.karate" level="WARN"/>-->
-    <logger name="org.thymeleaf" level="WARN"/>
-    <logger name="ch.qos.logback" level="WARN"/>
-    <logger name="karate.org.thymeleaf" level="ERROR"/>
+    <logger name="com.intuit.karate" level="DEBUG"/>
 
-
-    <root level="DEBUG">
+    <root level="INFO">
         <appender-ref ref="STDOUT"/>
     </root>
 </configuration>
